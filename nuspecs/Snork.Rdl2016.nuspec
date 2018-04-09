@@ -7,7 +7,7 @@
     <authors>Xavier Jefferson</authors>
     <owners>XavierJefferson</owners>
     <licenseUrl>https://www.gnu.org/licenses/lgpl-3.0.en.html</licenseUrl>
-    <projectUrl>https://github.com/xavierjefferson/Hangfire.FluentNHibernateStorage</projectUrl>
+    <projectUrl>https://github.com/xavierjefferson/Snork.Rdl2016</projectUrl>
     <!--<iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>This is a type library for reading Sql Server Report Definition Language files, version 2016</description>
