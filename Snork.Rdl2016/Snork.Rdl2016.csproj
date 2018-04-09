@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DA21DD4D-047A-4CF5-A715-E7E819C92B9D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Snork.Rdl2016</RootNamespace>
+    <AssemblyName>Snork.Rdl2016</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActionInfoType.cs" />
+    <Compile Include="ActionType.cs" />
+    <Compile Include="BackFrameType.cs" />
+    <Compile Include="BackgroundImageType.cs" />
+    <Compile Include="BackgroundImageTypeSource.cs" />
+    <Compile Include="BodyType.cs" />
+    <Compile Include="BorderType.cs" />
+    <Compile Include="CapImageType.cs" />
+    <Compile Include="CellContentsType.cs" />
+    <Compile Include="CellDefinitionType.cs" />
+    <Compile Include="ChartAlignTypeType.cs" />
+    <Compile Include="ChartAreaType.cs" />
+    <Compile Include="ChartAxisScaleBreakType.cs" />
+    <Compile Include="ChartAxisTitleType.cs" />
+    <Compile Include="ChartAxisType.cs" />
+    <Compile Include="ChartBorderSkinType_.cs" />
+    <Compile Include="ChartCategoryAxesType.cs" />
+    <Compile Include="ChartCustomPaletteColorsType.cs" />
+    <Compile Include="ChartDataLabelType.cs" />
+    <Compile Include="ChartDataPointType.cs" />
+    <Compile Include="ChartDataPointTypeDataElementOutput.cs" />
+    <Compile Include="ChartDataPointValuesType.cs" />
+    <Compile Include="ChartDataType.cs" />
+    <Compile Include="ChartDerivedSeriesCollectionType.cs" />
+    <Compile Include="ChartDerivedSeriesType.cs" />
+    <Compile Include="ChartDerivedSeriesTypeDerivedSeriesFormula.cs" />
+    <Compile Include="ChartElementPositionType.cs" />
+    <Compile Include="ChartEmptyPointsType.cs" />
+    <Compile Include="ChartFormulaParameterType.cs" />
+    <Compile Include="ChartGridLinesType.cs" />
+    <Compile Include="ChartHierarchyType.cs" />
+    <Compile Include="ChartItemInLegendType.cs" />
+    <Compile Include="ChartLegendColumnHeaderType.cs" />
+    <Compile Include="ChartLegendColumnType.cs" />
+    <Compile Include="ChartLegendColumnTypeColumnType.cs" />
+    <Compile Include="ChartLegendCustomItemCellType.cs" />
+    <Compile Include="ChartLegendCustomItemCellTypeCellType.cs" />
+    <Compile Include="ChartLegendCustomItemType.cs" />
+    <Compile Include="ChartLegendTitleType.cs" />
+    <Compile Include="ChartLegendType.cs" />
+    <Compile Include="ChartMarkerType.cs" />
+    <Compile Include="ChartMemberType.cs" />
+    <Compile Include="ChartMemberTypeDataElementOutput.cs" />
+    <Compile Include="ChartNoMoveDirectionsType.cs" />
+    <Compile Include="ChartSeriesCollectionType.cs" />
+    <Compile Include="ChartSeriesType.cs" />
+    <Compile Include="ChartSmartLabelType.cs" />
+    <Compile Include="ChartStripLineType.cs" />
+    <Compile Include="ChartThreeDPropertiesType.cs" />
+    <Compile Include="ChartTickMarksType.cs" />
+    <Compile Include="ChartTitleType.cs" />
+    <Compile Include="ChartType.cs" />
+    <Compile Include="ChartTypeDataElementOutput.cs" />
+    <Compile Include="ChartValueAxesType.cs" />
+    <Compile Include="ClassesType.cs" />
+    <Compile Include="ClassType.cs" />
+    <Compile Include="CodeModulesType.cs" />
+    <Compile Include="ConnectionPropertiesType.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="CustomDataType.cs" />
+    <Compile Include="CustomLabelType.cs" />
+    <Compile Include="CustomPropertiesType.cs" />
+    <Compile Include="CustomPropertyType.cs" />
+    <Compile Include="CustomReportItemType.cs" />
+    <Compile Include="CustomReportItemTypeDataElementOutput.cs" />
+    <Compile Include="DataCellType.cs" />
+    <Compile Include="DataColumnHierarchyType.cs" />
+    <Compile Include="DataMemberType.cs" />
+    <Compile Include="DataRowHierarchyType.cs" />
+    <Compile Include="DataRowType.cs" />
+    <Compile Include="DataSetReferenceType.cs" />
+    <Compile Include="DataSetType.cs" />
+    <Compile Include="DataSetTypeAccentSensitivity.cs" />
+    <Compile Include="DataSetTypeCaseSensitivity.cs" />
+    <Compile Include="DataSetTypeInterpretSubtotalsAsDetails.cs" />
+    <Compile Include="DataSetTypeKanatypeSensitivity.cs" />
+    <Compile Include="DataSetTypeWidthSensitivity.cs" />
+    <Compile Include="DataSourceType.cs" />
+    <Compile Include="DataValueType.cs" />
+    <Compile Include="DefaultValueType.cs" />
+    <Compile Include="DrillthroughType.cs" />
+    <Compile Include="EmbeddedImageType.cs" />
+    <Compile Include="EvaluationModeType.cs" />
+    <Compile Include="FieldType.cs" />
+    <Compile Include="FilterType.cs" />
+    <Compile Include="FilterTypeOperator.cs" />
+    <Compile Include="FilterValuesType.cs" />
+    <Compile Include="FrameBackgroundType.cs" />
+    <Compile Include="FrameImageType.cs" />
+    <Compile Include="GaugeImageType.cs" />
+    <Compile Include="GaugeInputValueType.cs" />
+    <Compile Include="GaugeInputValueTypeDataElementOutput.cs" />
+    <Compile Include="GaugeLabelType.cs" />
+    <Compile Include="GaugeMemberType.cs" />
+    <Compile Include="GaugePanelType.cs" />
+    <Compile Include="GaugePanelTypeDataElementOutput.cs" />
+    <Compile Include="GaugeTickMarksType.cs" />
+    <Compile Include="GridLayoutDefinitionType.cs" />
+    <Compile Include="GroupExpressionsType.cs" />
+    <Compile Include="GroupType.cs" />
+    <Compile Include="GroupTypeDataElementOutput.cs" />
+    <Compile Include="ImageType.cs" />
+    <Compile Include="ImageTypeDataElementOutput.cs" />
+    <Compile Include="ImageTypeSizing.cs" />
+    <Compile Include="ImageTypeSource.cs" />
+    <Compile Include="IndicatorImageType.cs" />
+    <Compile Include="IndicatorStateType.cs" />
+    <Compile Include="ItemChoiceType.cs" />
+    <Compile Include="LinearGaugeType.cs" />
+    <Compile Include="LinearPointerType.cs" />
+    <Compile Include="LinearScaleType.cs" />
+    <Compile Include="LineType.cs" />
+    <Compile Include="LineTypeDataElementOutput.cs" />
+    <Compile Include="LocIDStringWithDataTypeAttribute.cs" />
+    <Compile Include="MapBindingFieldPairType.cs" />
+    <Compile Include="MapBorderSkinType_.cs" />
+    <Compile Include="MapBucketType.cs" />
+    <Compile Include="MapColorPaletteRuleType.cs" />
+    <Compile Include="MapColorPaletteRuleTypeDataElementOutput.cs" />
+    <Compile Include="MapColorRangeRuleType.cs" />
+    <Compile Include="MapColorRangeRuleTypeDataElementOutput.cs" />
+    <Compile Include="MapColorScaleTitleType.cs" />
+    <Compile Include="MapColorScaleType.cs" />
+    <Compile Include="MapCustomColorRuleType.cs" />
+    <Compile Include="MapCustomColorRuleTypeDataElementOutput.cs" />
+    <Compile Include="MapCustomColorsType.cs" />
+    <Compile Include="MapCustomViewType.cs" />
+    <Compile Include="MapDataBoundViewType.cs" />
+    <Compile Include="MapDataRegionType.cs" />
+    <Compile Include="MapDistanceScaleType.cs" />
+    <Compile Include="MapElementViewType.cs" />
+    <Compile Include="MapFieldDefinitionType.cs" />
+    <Compile Include="MapFieldDefinitionTypeDataType.cs" />
+    <Compile Include="MapFieldNamesType.cs" />
+    <Compile Include="MapFieldType.cs" />
+    <Compile Include="MapGridLinesType.cs" />
+    <Compile Include="MapLayersType.cs" />
+    <Compile Include="MapLegendTitleType.cs" />
+    <Compile Include="MapLegendType.cs" />
+    <Compile Include="MapLimitsType.cs" />
+    <Compile Include="MapLineLayerType.cs" />
+    <Compile Include="MapLineLayerTypeDataElementOutput.cs" />
+    <Compile Include="MapLineRulesType.cs" />
+    <Compile Include="MapLineTemplateType.cs" />
+    <Compile Include="MapLineTemplateTypeDataElementOutput.cs" />
+    <Compile Include="MapLineType.cs" />
+    <Compile Include="MapLocationType.cs" />
+    <Compile Include="MapMarkerImageType.cs" />
+    <Compile Include="MapMarkerRuleType.cs" />
+    <Compile Include="MapMarkerRuleTypeDataElementOutput.cs" />
+    <Compile Include="MapMarkerTemplateType.cs" />
+    <Compile Include="MapMarkerTemplateTypeDataElementOutput.cs" />
+    <Compile Include="MapMarkerType.cs" />
+    <Compile Include="MapMemberType.cs" />
+    <Compile Include="MapPointLayerType.cs" />
+    <Compile Include="MapPointLayerTypeDataElementOutput.cs" />
+    <Compile Include="MapPointRulesType.cs" />
+    <Compile Include="MapPointType.cs" />
+    <Compile Include="MapPolygonLayerType.cs" />
+    <Compile Include="MapPolygonLayerTypeDataElementOutput.cs" />
+    <Compile Include="MapPolygonRulesType.cs" />
+    <Compile Include="MapPolygonTemplateType.cs" />
+    <Compile Include="MapPolygonTemplateTypeDataElementOutput.cs" />
+    <Compile Include="MapPolygonType.cs" />
+    <Compile Include="MapShapefileType.cs" />
+    <Compile Include="MapSizeRuleType.cs" />
+    <Compile Include="MapSizeRuleTypeDataElementOutput.cs" />
+    <Compile Include="MapSizeType.cs" />
+    <Compile Include="MapSpatialDataRegionType.cs" />
+    <Compile Include="MapSpatialDataSetType.cs" />
+    <Compile Include="MapTileLayerType.cs" />
+    <Compile Include="MapTileType.cs" />
+    <Compile Include="MapTitleType.cs" />
+    <Compile Include="MapType.cs" />
+    <Compile Include="MapViewportType.cs" />
+    <Compile Include="NumericIndicatorRangeType.cs" />
+    <Compile Include="NumericIndicatorType.cs" />
+    <Compile Include="PageBreakType.cs" />
+    <Compile Include="PageBreakTypeBreakLocation.cs" />
+    <Compile Include="PageSectionType.cs" />
+    <Compile Include="PageType.cs" />
+    <Compile Include="ParagraphType.cs" />
+    <Compile Include="ParagraphTypeListStyle.cs" />
+    <Compile Include="ParameterType.cs" />
+    <Compile Include="ParameterValueType.cs" />
+    <Compile Include="PinLabelType.cs" />
+    <Compile Include="PointerCapType.cs" />
+    <Compile Include="PointerImageType.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueryParameterType.cs" />
+    <Compile Include="QueryType.cs" />
+    <Compile Include="QueryTypeCommandType.cs" />
+    <Compile Include="RadialGaugeType.cs" />
+    <Compile Include="RadialPointerType.cs" />
+    <Compile Include="RadialScaleType.cs" />
+    <Compile Include="Report.cs" />
+    <Compile Include="RectangleType.cs" />
+    <Compile Include="RectangleTypeDataElementOutput.cs" />
+    <Compile Include="ReportDataElementStyle.cs" />
+    <Compile Include="ReportItemsType.cs" />
+    <Compile Include="ReportParametersLayoutType.cs" />
+    <Compile Include="ReportParameterType.cs" />
+    <Compile Include="ReportParameterTypeDataType.cs" />
+    <Compile Include="ReportParameterTypeUsedInQuery.cs" />
+    <Compile Include="ReportSectionType.cs" />
+    <Compile Include="ReportSectionTypeDataElementOutput.cs" />
+    <Compile Include="ScaleLabelsType.cs" />
+    <Compile Include="ScalePinType.cs" />
+    <Compile Include="ScaleRangeType.cs" />
+    <Compile Include="SharedDataSetType.cs" />
+    <Compile Include="SortExpressionType.cs" />
+    <Compile Include="SortExpressionTypeDirection.cs" />
+    <Compile Include="StateIndicatorType.cs" />
+    <Compile Include="StateIndicatorTypeStateDataElementOutput.cs" />
+    <Compile Include="StringLocIDType.cs" />
+    <Compile Include="StringWithDataTypeAttribute.cs" />
+    <Compile Include="StringWithDataTypeAttributeDataType.cs" />
+    <Compile Include="StyleType.cs" />
+    <Compile Include="SubreportType.cs" />
+    <Compile Include="SubreportTypeDataElementOutput.cs" />
+    <Compile Include="TablixBodyType.cs" />
+    <Compile Include="TablixCellType.cs" />
+    <Compile Include="TablixCellTypeDataElementOutput.cs" />
+    <Compile Include="TablixColumnType.cs" />
+    <Compile Include="TablixCornerCellType.cs" />
+    <Compile Include="TablixCornerRowType.cs" />
+    <Compile Include="TablixCornerType.cs" />
+    <Compile Include="TablixHeaderType.cs" />
+    <Compile Include="TablixHierarchyType.cs" />
+    <Compile Include="TablixMemberType.cs" />
+    <Compile Include="TablixMemberTypeDataElementOutput.cs" />
+    <Compile Include="TablixMemberTypeKeepWithGroup.cs" />
+    <Compile Include="TablixRowType.cs" />
+    <Compile Include="TablixType.cs" />
+    <Compile Include="TablixTypeDataElementOutput.cs" />
+    <Compile Include="TablixTypeLayoutDirection.cs" />
+    <Compile Include="TextboxType.cs" />
+    <Compile Include="TextboxTypeDataElementOutput.cs" />
+    <Compile Include="TextboxTypeDataElementStyle.cs" />
+    <Compile Include="TextRunType.cs" />
+    <Compile Include="ThermometerType.cs" />
+    <Compile Include="TickMarkStyleType.cs" />
+    <Compile Include="ToggleImageType.cs" />
+    <Compile Include="TopImageType.cs" />
+    <Compile Include="UserSortType.cs" />
+    <Compile Include="ValidValuesType.cs" />
+    <Compile Include="ValuesType.cs" />
+    <Compile Include="VariableType.cs" />
+    <Compile Include="VisibilityType.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DA.Domain\DA.Domain.csproj">
+      <Project>{a50f93b7-85de-40a1-a89b-ffa9b43cb889}</Project>
+      <Name>DA.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0"?>
+
+<package>
+  <metadata>
+    <id>Snork.Rdl2016</id>
+    <version>1.0.0</version>
+    <authors>Xavier Jefferson</authors>
+    <owners>XavierJefferson</owners>
+    <licenseUrl>https://www.gnu.org/licenses/lgpl-3.0.en.html</licenseUrl>
+    <projectUrl>https://github.com/xavierjefferson/Hangfire.FluentNHibernateStorage</projectUrl>
+    <!--<iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This is a type library for reading Sql Server Report Definition Language files, version 2016</description>
+    <releaseNotes>
+      Initial release
+    </releaseNotes>
+    <copyright>Copyright © 2018 Xavier Jefferson</copyright>
+    <tags>sql server rdl 2016</tags>
+    <dependencies>
+	 
+    </dependencies>
+
+
+  </metadata>
+  <files>
+    <file src="..\Snork.Rdl2016\bin\debug\Snork.Rdl2016.dll" target="lib\net45" />
+    <file src="..\Snork.Rdl2016\**\*.cs;" target="src" exclude="**\obj*\**\*.cs" />
+  </files>
+</package>
