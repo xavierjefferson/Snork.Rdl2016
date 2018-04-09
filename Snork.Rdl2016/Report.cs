@@ -112,7 +112,6 @@ namespace Snork.Rdl2016
         public List<VariableType> Variables { get; set; } = new List<VariableType>();
 
 
-
         /// <remarks />
         [XmlAttribute(DataType = "token")]
         public List<string> MustUnderstand { get; set; }

@@ -19,6 +19,5 @@ namespace Snork.Rdl2016
         [XmlArray("TablixCornerRows")]
         [XmlArrayItem("TablixCornerRow", typeof(TablixCornerRowType))]
         public List<TablixCornerRowType> TablixCornerRows { get; set; } = new List<TablixCornerRowType>();
-
     }
 }

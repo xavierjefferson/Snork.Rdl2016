@@ -19,6 +19,5 @@ namespace Snork.Rdl2016
         [XmlArray("TablixMembers")]
         [XmlArrayItem("TablixMember", typeof(TablixMemberType))]
         public List<TablixMemberType> TablixMembers { get; set; } = new List<TablixMemberType>();
-
     }
 }

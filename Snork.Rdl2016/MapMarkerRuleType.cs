@@ -45,7 +45,6 @@ namespace Snork.Rdl2016
         public List<MapBucketType> MapBuckets { get; set; } = new List<MapBucketType>();
 
 
-        
         [XmlArray("MapMarkers")]
         [XmlArrayItem("MapMarker", typeof(MapMarkerType))]
         public List<MapMarkerType> MapMarkers { get; set; } = new List<MapMarkerType>();

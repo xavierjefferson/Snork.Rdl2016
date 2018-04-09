@@ -21,9 +21,9 @@ namespace Snork.Rdl2016
 
         [XmlArray("ChartLegendCustomItemCells")]
         [XmlArrayItem("ChartLegendCustomItemCell", typeof(ChartLegendCustomItemCellType))]
-        public List<ChartLegendCustomItemCellType> ChartLegendCustomItemCells { get; set; } = new List<ChartLegendCustomItemCellType>();
+        public List<ChartLegendCustomItemCellType> ChartLegendCustomItemCells { get; set; } =
+            new List<ChartLegendCustomItemCellType>();
 
-          
 
         [XmlElement("ChartMarker", typeof(ChartMarkerType))]
         public ChartMarkerType ChartMarker { get; set; }

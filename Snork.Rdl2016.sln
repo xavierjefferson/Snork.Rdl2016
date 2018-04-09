@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2011
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snork.Rdl2016", "Snork.Rdl2016\Snork.Rdl2016.csproj", "{DA21DD4D-047A-4CF5-A715-E7E819C92B9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{AAA1D187-FBBD-4FD4-B8E4-BF1E99552DB1}"
+	ProjectSection(SolutionItems) = preProject
+		COPYING = COPYING
+		COPYING.LESSER = COPYING.LESSER
+		LICENSE.MD = LICENSE.MD
+		rdl2016.xsd = rdl2016.xsd
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA21DD4D-047A-4CF5-A715-E7E819C92B9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA21DD4D-047A-4CF5-A715-E7E819C92B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA21DD4D-047A-4CF5-A715-E7E819C92B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA21DD4D-047A-4CF5-A715-E7E819C92B9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E820816-5F51-4729-9EED-CE08A8698022}
+	EndGlobalSection
+EndGlobal

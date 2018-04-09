@@ -22,6 +22,5 @@ namespace Snork.Rdl2016
         [XmlArray("ParameterValues")]
         [XmlArrayItem("ParameterValue", typeof(ParameterValueType))]
         public List<ParameterValueType> ParameterValues { get; set; } = new List<ParameterValueType>();
-
     }
 }

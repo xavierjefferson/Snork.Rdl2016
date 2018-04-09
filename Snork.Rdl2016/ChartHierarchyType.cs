@@ -19,6 +19,5 @@ namespace Snork.Rdl2016
         [XmlArray("ChartMembers")]
         [XmlArrayItem("ChartMember", typeof(ChartMemberType))]
         public List<ChartMemberType> ChartMembers { get; set; } = new List<ChartMemberType>();
-
     }
 }

@@ -20,5 +20,15 @@ namespace Snork.Rdl2016
         [XmlArrayItem("Action", typeof(ActionType))]
         public List<ActionType> Actions { get; set; } = new List<ActionType>();
 
+        Snork.Rdl2016.Report ReadAFile(string rdlFilename)
+        {
+            var serializer = new System.Xml.Serialization.XmlSerializer(typeof(Report));
+            Snork.Rdl2016.Report report;
+            using (var stream = System.IO.File.OpenRead(rdlFilename))
+            {
+                report = (Snork.Rdl2016.Report)serializer.Deserialize(stream);
+            }
+            return report;
+        }
     }
 }

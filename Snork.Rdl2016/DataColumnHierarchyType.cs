@@ -19,6 +19,5 @@ namespace Snork.Rdl2016
         [XmlArray("DataMembers")]
         [XmlArrayItem("DataMember", typeof(DataMemberType))]
         public List<DataMemberType> DataMembers { get; set; } = new List<DataMemberType>();
-
     }
 }

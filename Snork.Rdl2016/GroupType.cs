@@ -53,7 +53,6 @@ namespace Snork.Rdl2016
         public List<VariableType> Variables { get; set; } = new List<VariableType>();
 
 
-
         /// <remarks />
         [XmlAttribute(DataType = "normalizedString")]
         public string Name { get; set; }

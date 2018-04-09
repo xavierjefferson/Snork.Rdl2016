@@ -24,6 +24,5 @@ namespace Snork.Rdl2016
         [XmlArray("TablixRows")]
         [XmlArrayItem("TablixRow", typeof(TablixRowType))]
         public List<TablixRowType> TablixRows { get; set; } = new List<TablixRowType>();
-
     }
 }

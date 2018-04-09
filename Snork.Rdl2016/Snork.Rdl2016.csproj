@@ -291,11 +291,5 @@
     <Compile Include="VariableType.cs" />
     <Compile Include="VisibilityType.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\DA.Domain\DA.Domain.csproj">
-      <Project>{a50f93b7-85de-40a1-a89b-ffa9b43cb889}</Project>
-      <Name>DA.Domain</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

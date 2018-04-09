@@ -43,6 +43,5 @@ namespace Snork.Rdl2016
         [XmlArray("TextRuns")]
         [XmlArrayItem("TextRun", typeof(TextRunType))]
         public List<TextRunType> TextRuns { get; set; } = new List<TextRunType>();
-
     }
 }

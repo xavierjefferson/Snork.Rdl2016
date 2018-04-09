@@ -25,6 +25,5 @@ namespace Snork.Rdl2016
         [XmlArray("SortExpressions")]
         [XmlArrayItem("SortExpression", typeof(SortExpressionType))]
         public List<SortExpressionType> SortExpressions { get; set; } = new List<SortExpressionType>();
-
     }
 }

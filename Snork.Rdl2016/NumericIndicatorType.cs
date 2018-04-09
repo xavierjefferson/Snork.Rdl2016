@@ -60,9 +60,9 @@ namespace Snork.Rdl2016
 
         [XmlArray("NumericIndicatorRanges")]
         [XmlArrayItem("NumericIndicatorRange", typeof(NumericIndicatorRangeType))]
-        public List<NumericIndicatorRangeType> NumericIndicatorRanges { get; set; } = new List<NumericIndicatorRangeType>();
+        public List<NumericIndicatorRangeType> NumericIndicatorRanges { get; set; } =
+            new List<NumericIndicatorRangeType>();
 
-           
 
         [XmlElement("OffString", typeof(string))]
         public string OffString { get; set; }

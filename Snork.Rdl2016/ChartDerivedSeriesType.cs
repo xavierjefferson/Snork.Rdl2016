@@ -18,9 +18,9 @@ namespace Snork.Rdl2016
         /// <remarks />
         [XmlArray("ChartFormulaParameters")]
         [XmlArrayItem("ChartFormulaParameter", typeof(ChartFormulaParameterType))]
-        public List<ChartFormulaParameterType> ChartFormulaParameters { get; set; } = new List<ChartFormulaParameterType>();
+        public List<ChartFormulaParameterType> ChartFormulaParameters { get; set; } =
+            new List<ChartFormulaParameterType>();
 
-           
 
         [XmlElement("ChartSeries", typeof(ChartSeriesType))]
         public List<ChartSeriesType> ChartSeries { get; set; } = new List<ChartSeriesType>();
