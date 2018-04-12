@@ -29,7 +29,7 @@ namespace Snork.Rdl2016
         public string ClipContent { get; set; }
 
         [XmlArray("GaugeScales")]
-        [XmlElement("RadialScale", typeof(RadialScaleType))]
+        [XmlArrayItem("RadialScale", typeof(RadialScaleType))]
         public List<RadialScaleType> GaugeScales { get; set; } = new List<RadialScaleType>();
 
         [XmlElement("Height", typeof(string))]

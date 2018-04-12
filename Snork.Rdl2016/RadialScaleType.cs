@@ -36,7 +36,7 @@ namespace Snork.Rdl2016
         //public List<LinearPointerType> GaugePointers { get; set; } = new List<LinearPointerType>();
 
         [XmlArray("GaugePointers")]
-        [XmlElement("RadialPointer", typeof(RadialPointerType))]
+        [XmlArrayItem("RadialPointer", typeof(RadialPointerType))]
         public List<RadialPointerType> GaugePointers { get; set; } = new List<RadialPointerType>();
 
         [XmlElement("Hidden", typeof(string))]

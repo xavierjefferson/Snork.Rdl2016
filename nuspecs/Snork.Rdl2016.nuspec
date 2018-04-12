@@ -3,7 +3,7 @@
 <package>
   <metadata>
     <id>Snork.Rdl2016</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <authors>Xavier Jefferson</authors>
     <owners>XavierJefferson</owners>
     <licenseUrl>https://www.gnu.org/licenses/lgpl-3.0.en.html</licenseUrl>
@@ -12,7 +12,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>This is a type library for reading Sql Server Report Definition Language files, version 2016</description>
     <releaseNotes>
-      Initial release
+      Fix issues with XmlArray attributes
     </releaseNotes>
     <copyright>Copyright © 2018 Xavier Jefferson</copyright>
     <tags>sql server rdl 2016</tags>
@@ -23,7 +23,7 @@
 
   </metadata>
   <files>
-    <file src="..\Snork.Rdl2016\bin\debug\Snork.Rdl2016.dll" target="lib\net45" />
+    <file src="..\Snork.Rdl2016\bin\debug\Snork.Rdl2016.dll" target="lib\net46" />
     <file src="..\Snork.Rdl2016\**\*.cs;" target="src" exclude="**\obj*\**\*.cs" />
   </files>
 </package>

@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSerialization", "TestSerialization\TestSerialization.csproj", "{C4BC3DDE-FDF0-4159-BD3A-C1A29A62710D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,10 @@ Global
 		{DA21DD4D-047A-4CF5-A715-E7E819C92B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA21DD4D-047A-4CF5-A715-E7E819C92B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA21DD4D-047A-4CF5-A715-E7E819C92B9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4BC3DDE-FDF0-4159-BD3A-C1A29A62710D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4BC3DDE-FDF0-4159-BD3A-C1A29A62710D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4BC3DDE-FDF0-4159-BD3A-C1A29A62710D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4BC3DDE-FDF0-4159-BD3A-C1A29A62710D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

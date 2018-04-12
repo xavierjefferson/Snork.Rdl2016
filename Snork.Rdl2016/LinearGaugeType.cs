@@ -28,7 +28,7 @@ namespace Snork.Rdl2016
         [XmlElement("ClipContent", typeof(string))]
         public string ClipContent { get; set; }
 
-        [XmlElement("GaugeScales", typeof(LinearScaleType))]
+         
         [XmlArray("GaugeScales")]
         [XmlArrayItem("LinearScale", typeof(LinearScaleType))]
         public List<LinearScaleType> GaugeScales { get; set; } = new List<LinearScaleType>();
