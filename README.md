@@ -3,7 +3,7 @@
 
 [![Latest version](https://img.shields.io/nuget/v/Snork.Rdl2016.svg)](https://www.nuget.org/packages/Snork.Rdl2016/) 
 
-This is a type library for reading Sql Server Report Definition Language files, version 2016.  It is based on Microsoft's RDL XML Schema for Version 2016/01, found [here](https://msdn.microsoft.com/en-us/library/mt704772%28v=sql.105%29.aspx).  I've also included that same file [here](rdl2016.xsd).
+This is a type library for reading Sql Server Report Definition Language files, version 2016, from within a .NET Framework application.  It is based on Microsoft's RDL XML Schema for Version 2016/01, found [here](https://msdn.microsoft.com/en-us/library/mt704772%28v=sql.105%29.aspx).  I've also included that same file [here](rdl2016.xsd).
 
 # Usage
 
